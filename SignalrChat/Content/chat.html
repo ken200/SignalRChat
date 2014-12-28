@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>チャット</title>
+    <link href="/Style/chat.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="container" id="chat-app">
+
+        <div class="left-frame">
+            <div class="chat-submission">
+                <input class="chat-submission__message" name="chat-submission__message" type="text" />
+                <input class="chat-submission__send-button" type="button" value="送信" />
+            </div>
+            <div class="chat-timeline">
+                <ul>
+                    <!--メッセージ一覧-->
+                </ul>
+            </div>
+        </div>
+
+        <div class="right-frame">
+            <div class="chat-userlist">
+                <p class="chat-userlist__title">参加ユーザー</p>
+                <ul>
+                    <!--ユーザー一覧-->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="/Scripts/jquery-1.6.4.min.js"></script>
+    <script src="/Scripts/jquery.signalR-2.1.2.min.js"></script>
+    <script src="/Scripts/underscore.min.js"></script>
+    <script src="/Scripts/my/Utils.js"></script>
+    <script src="/Scripts/my/UserListSource.js"></script>
+    <script src="/Scripts/my/TweetHubClient.js"></script>
+    <script src="/Scripts/my/ChatMain.js"></script>
+</body>
+</html>

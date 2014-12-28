@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>チャットログイン</title>
+    <style>
+        input[type=button] {
+            margin-left: 50px;
+        }
+    </style>
+    <script src="../Scripts/jquery-1.6.4.min.js"></script>
+</head>
+<body>
+    <form method="post" action="/chatlogin">
+        <p>
+            <label for="message">グループ名</label>
+            <input type="text" name="groupname" id="groupname" value="(default)" />
+        </p>
+        <p>
+            <label for="message">ユーザー名</label>
+            <input type="text" name="username" id="username" />
+        </p>
+        <input type="submit" value="ログイン" />
+    </form>
+</body>
+</html>
