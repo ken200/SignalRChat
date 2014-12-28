@@ -1,2 +1,4 @@
 SignalRChat
 ===========
+
+SignalRとRedisを使ったチャットアプリケーション
